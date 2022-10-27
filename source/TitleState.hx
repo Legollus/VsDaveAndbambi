@@ -23,7 +23,8 @@ import flixel.util.FlxTimer;
 import io.newgrounds.NG;
 import lime.app.Application;
 import openfl.Assets;
-#if desktop
+#if android
+addVirtualPad(FULL,A,B)	
 import Discord.DiscordClient;
 #end
 
