@@ -68,8 +68,8 @@ class TitleState extends MusicBeatState
 
 		// DEBUG BULLSHIT
 
-		#if desktop
-		DiscordClient.initialize();
+		#if android
+		addVirtualPad(FULL,A,B)
 		#end
 
 		super.create();
